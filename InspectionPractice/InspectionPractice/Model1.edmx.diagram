@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0f85246144954344986acb67013266c5" Name="Diagram1">
+        <EntityTypeShape EntityType="InspectionModel.Driver" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.EngineType" Width="1.5" PointX="3.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.License" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.LicenseCategory" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.LicenseState" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.PhotoOfVehicleAccident" Width="1.5" PointX="10.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.TypeOfDrive" Width="1.5" PointX="3.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.User" Width="1.5" PointX="7.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.Vehicle" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.VehicleAccident" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.VehicleColor" Width="1.5" PointX="3.75" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.VehicleManufacturer" Width="1.5" PointX="1.5" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InspectionModel.VehicleModel" Width="1.5" PointX="3.75" PointY="20.625" IsExpanded="true" />
+        <AssociationConnector Association="InspectionModel.FK__License__DriverI__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK__Vehicle__DriverI__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK_Vehicle_EngineType" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK_License_LicenseState" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK_PhotoOfVehicleAccident_VehicleAccident" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK_Vehicle_TypeOfDrive" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK_Vehicle_VehicleColor" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK_Vehicle_VehicleModel" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.FK_VehicleModel_VehicleManufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.CategoryOfLicense" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.DriverOfVehicleAccident" ManuallyRouted="false" />
+        <AssociationConnector Association="InspectionModel.VehicleOfVehicleAccident" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
